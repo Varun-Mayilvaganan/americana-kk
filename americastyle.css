@@ -1,0 +1,259 @@
+body{
+	padding:0px;
+	margin:0px;
+}
+
+
+.navbar{
+width : 100% ;
+height : 40px;
+display :flex ;
+background-color : white ;
+padding:20px;
+border-bottom: 1px solid #fff ;
+justify-content : space-between;
+position : fixed ;
+z-index:1;
+}
+.textInNavbar{
+color : #002E48 ;
+font-size:16px;
+list-style-type:none;
+display: flex;
+justify-content:space-between;
+margin-right: 3%;
+padding : 5px ;
+float :right ;
+align-items : centetr ;
+}
+a{
+	font-size : 20px;
+	padding : 20px 20px ;
+	font-family : 'DM Serif Display', serif ;
+}
+
+.navLogo{
+	width : 200px ;
+	height : 50px ;
+}
+
+
+.location{
+	background-color : #a31521;
+	padding:20px;
+	text-align : center;
+	height : 38px;
+	width : 100% ;
+	
+	color :	white ;
+	font-size : 14px;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+.food{
+	display : flex ;
+	background-color : #c6d7e9 ;
+	justify-content :space-around ;
+}
+.food > aboutdiv{
+	margin-left:15% ;
+	line-height: 1.42857143;
+	
+}
+.foodimg{
+	
+	width : 50% ;
+	
+}
+.btnReadMore{
+	text-align:center;
+	padding : 10px 40px;
+	background-color: #A31521 ;
+	border: 2px solid #A31521;
+	color : #fff ;
+	font-family: 'DM Serif Display', serif;
+	
+}
+.btnReadMore:hover{
+background-color: #002e48;	
+	border : 2px solid #002e48 ;
+	color : #fff ;
+	font-family: 'DM Serif Display', serif;
+	
+}
+
+.video{
+	width : 100%  ;
+	
+}
+.aboutdiv{
+
+	text-align : center ;
+	vertical-align : center !important ;
+	background-color : rgba(250,250,250,0) ;
+	
+}
+.aboutdiv>h1{
+	
+	font-size:4em ;
+}
+
+.aboutdiv>h2{
+
+
+    text-align: center;
+    box-sizing: border-box;
+    font-weight: 500;
+    line-height: 1.1;
+    font-family: 'Parisienne', cursive;
+    text-transform: none;
+    margin: 0 auto 20px;
+    color: #002e48;
+    font-size: 2em;	
+	
+}
+
+.grid-container{
+	display:grid;
+	grid-template-columns : auto auto ;
+	grid-column-gap : 70px;
+	grid-row-gap : 70px;
+	margin : 30px 30px 1px 30px ;
+	width:100% ;
+	z-index:2;
+	
+	position:static;
+	
+}
+
+
+
+.grid-container >p{
+	text-align:center;
+	font: 400 20px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.grid-img{
+	width : 100% ;
+	
+}
+.dishPoster>h1{
+	
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font: 400 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    list-style: none;
+    text-align: center!important;
+    box-sizing: border-box;
+    margin: .67em 0;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-family: 'DM Serif Display', serif;
+    color: #fff;
+	vertical-align : middle ;
+   
+    
+    font-size: 4em;
+
+}
+.dishPoster{
+	background-image : url('https://static.spotapps.co/web/americanalasvegas--com/custom/about_us_left_2.jpg')	;
+	width : 100% ;
+	
+	height : 650px ;
+	background-repeat : no-repeat ;
+	background-size : cover ;
+	text-align : center ;
+	vertical-align : middle ;
+}
+
+.grid-container2{
+display : grid ;
+grid-template-columns: 270px 270px 270px 270px 270px ;
+grid-template-rows:270px 270px 270px 270px ;
+position:absolute ;
+margin-top:50px ;
+position : static ;
+width : 100% ;
+margin-bottom : 20px;
+
+}
+
+
+
+.item1{
+	grid-column : 1/3 ;
+	grid-row : 1/3 ;
+}
+.item2{
+	grid-column : 1/3 ;
+	grid-row : 3/5 ;
+}
+	
+.review{
+	display : block;
+	text-align:center ;
+}
+
+
+
+
+/*	    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font: 400 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    margin: .67em 0;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000;
+    font-size: 4em; */
+
+.reservation{
+	    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    font: 400 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+    -webkit-text-size-adjust: 100%;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-color: #002e48;
+    padding: 7em 0 13em;
+}
+.reservation>h1{
+
+	
+	
+    font: 400 14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;
+ 
+    margin: .67em 0;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    font-family: 'DM Serif Display', serif;
+    margin-top: 45px;
+    text-align: center;
+    color: #fff;
+    display: block;
+    text-transform: uppercase;
+    font-size: 4em;
+	
+}
+.reservation>p{
+	text-align : center ;
+	
+}
+.reservation>a{
+	text-align : center ;
+	text-decoration : none ;
+}
